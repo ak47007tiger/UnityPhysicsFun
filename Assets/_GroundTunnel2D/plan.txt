@@ -1,0 +1,20 @@
+plan
+
+#tunnel2D game
+create and move in ground tunnel
+collect energy and fight with monster
+
+#build scene
+1 ground
+2 tunnel player
+3 tunnel2D builder
+4 collision
+
+#describe tunnel player
+sprite, move, path
+
+#describe tunnel2D builder
+path, tunnel2D
+
+#describe tunnel2D
+tunnel mesh, texture
